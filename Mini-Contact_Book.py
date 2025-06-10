@@ -37,22 +37,23 @@ def menu():
     print('''
         ------------------------------------------------------
         
-        Welcome to the Mini Contact Book!
+        📒 Welcome to the Mini Contact Book!
         
         1. 📋 View all contacts
 
-        2. 🔍 Add new contacts (name, phone, email)
+        2. ➕ Add new contacts (name, phone, email)
 
         3. 🔎 Search for a contact
 
         4. ❌ Delete a contact
         
-        5. Menu
+        5. 📑 Menu (Show options again)
         
-        6. Exit
+        6. 🚪 Exit
         
         ------------------------------------------------------
         ''')
+
     main()
     
 def main():
