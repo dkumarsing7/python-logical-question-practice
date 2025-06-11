@@ -1,3 +1,4 @@
+import 
 contact_book = {
     'person1':{'name' : 'Deep', 'phone' : '7424899716', 'email' : 'dkumarsing7@gmail.com'},
     'person2':{'name' : 'Div', 'phone' : '1234567899', 'email' : 'div7@gmail.com'},
@@ -59,7 +60,7 @@ def menu():
 def main():
     try:
         user = int(input("Enter a choice 1-4 : "))
-    except Exception as e:
+    except:
         print("Invalid choice, please select a valid option (1-4).")
         print("Please try again.")
         print('------------------------------------------------------')
